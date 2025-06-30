@@ -26,7 +26,11 @@ This project includes:
   - Media queries for basic responsiveness
 - No JavaScript is used in this version
 
-<pre> ## 📁 File Structure ``` project-root/ ├── index.html # Main HTML file ├── style.css # Styling └── img/ # Folder for images (e.g., screenshot, thumbnails) ``` </pre>
+<pre> ## 📁 File Structure 
+  ``` project-root/ 
+├── index.html # Main HTML file
+├── style.css # Styling 
+└── img/ # Folder for images (e.g., screenshot, thumbnails) ``` </pre>
 
 ## 🚀 Getting Started
 
