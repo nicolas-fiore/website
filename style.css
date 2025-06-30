@@ -1,5 +1,5 @@
 * {
-    outline: 1px red dotted; 
+    outline: px red dotted; 
 }
 
 body {
@@ -20,6 +20,14 @@ body {
     align-items: center;
 }
 
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
 ul { 
     margin: 0px;
     padding: 0px;
@@ -32,11 +40,11 @@ ul {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    padding-top: 100px
 }
 
 .hero-text {
-    font-size: 18px
+    font-size: 18px;
+    color: #e5e7eb
 }
 
 .Hero {
@@ -46,6 +54,7 @@ ul {
     max-width: 400px;
     gap: 16px;
     align-items: start;
+    padding: 100px 0px;
 }
 
 
@@ -55,14 +64,16 @@ button {
     color: white; 
     border-radius: 7px;
     border: 1px solid #3882f6;
+    border-color: white;
     box-shadow:none;
+    padding: 2px 16px
 }
 
 img {
     max-width: 200px;
     max-height: 200px;
-    
-    
+    border: 6px solid #3882f6;
+    border-radius: 8px;
 }
 
 a {
@@ -73,30 +84,67 @@ a {
 
 .boxes{
     text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    color: #1f2937
 }
 
 .box-container {
     display: flex;
     justify-content: center;
-    gap: 52px
+    gap: 52px;
+    padding: 40px;
+    font-size: 18px;
+    color: rgb(90, 86, 86);
+    
 }
 
 .box-img {
     max-width: 200px;
+    
 }
 
 .mid {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 86px
+    padding: 86px;
+    background-color:#e5e7eb;
 }
 
 .quote {
     font-size: 36px;
-    max-width: 600px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 700px;
+    align-self: center;
+    
 }
 
-.mid-auth { 
+.mid-auth {
+    font-weight: 900;
+    font-size: 24px;
+    align-self: center;
+    padding-left: 490px;
+}
+
+h2 {
+    font-size: 24px;
+
+}
+p {
+    font-size: 15px;
+}
+.bot-box{ 
+    color: #e5e7eb;
     
+}
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 32px 100px;
+    margin: 64px 400px;
+    border-radius: 16px;
+    justify-content: space-evenly;
 }
