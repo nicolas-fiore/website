@@ -1,3 +1,6 @@
+Live: Preview at http://everybody-ah.github.io/website
+
+
 # 💙 My Freak Girlfriend - Landing Page
 
 This is a fun, responsive landing page built with HTML and CSS. It demonstrates basic front-end design using **flexbox layout**, **typography**, and **visual hierarchy**, structured around a fictional and quirky theme: *"My Freak Girlfriend."*
